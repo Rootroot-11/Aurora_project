@@ -1,0 +1,44 @@
+
+html{
+    font-size: 0.52vw;
+  }
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: pink;    
+}
+a:focus{
+    text-decoration: underline;
+}
+ul{
+    padding: 0;
+    margin: unset;
+  }
+button{
+    background-color: unset;
+    border: unset;
+    cursor: pointer;    
+    padding: unset;
+    border: unset;
+    font-family: unset;
+    text-transform: unset;
+}
+input{
+    border: unset;
+    background-color: unset;
+    font-size: unset;
+    font-family: unset;
+    padding: unset;
+}
+h1, h2, h3, h4, h5{
+    margin: unset;
+}
+.pc-hidden{
+    display: none;
+}

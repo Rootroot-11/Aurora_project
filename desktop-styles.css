@@ -1,0 +1,212 @@
+.greetings-section{
+    font-family: 'Poppins';
+    background-image: url(img/hp-oh-hi.png);
+    background-size: cover;
+}
+.greetings-section_top{
+    background-color: #F7F7F7;
+    display: flex;    
+    font-size: 1.1rem; 
+    padding: 0.4rem 2.4rem 0.5rem 0;
+}
+.greetings-section_top span{
+    margin: 0 auto;
+}
+.greetings-section_top a{
+    
+    display: flex;
+    align-items: center;
+}
+.header{
+    background-color:white;
+    padding-bottom: 1.6rem;
+}
+.header:hover{
+    background-color: unset;
+    color: white;
+}
+.header_wrap-1{
+    display: flex;
+    padding: 1.6rem 2.4rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.header_wrap-2{
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+}
+.header_main-logo{
+    font-size: 3.8rem;
+    font-family: 'Poppins-Bold';
+}
+.header_input-block{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1.6rem;
+    background-color: #F7F7F7;
+    font-family: 'Poppins-Bold';
+}
+.header_input-block input{
+    width: 53rem;
+}
+.header_notification{
+    background-color: #F2DA91;
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+}
+.header_nav{
+    font-family: 'Poppins-Bold';
+    font-size: 1.3rem;
+}
+.header_nav ul{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.header_nav ul li{
+    display: block;
+    margin-right: 3.2rem;
+}
+.header_img-1{
+    width: 0.8rem;
+    height: 1.1rem;
+    margin-right: 0.6rem;
+}
+.header_img-2{
+    width: 1.67rem;
+    height: 1.6rem;
+    margin-left: 0.5rem;
+}
+.header_img-3{
+    width: 1.6rem;
+    height: 2.4rem;
+    margin: 0 0.8rem 0 1.65rem;
+}
+.greetings-section_h1{
+    color: white;
+    font-size: 6rem;
+    font-family: 'Poppins-Bold';
+    padding: 18.8rem 0 24.7rem;   
+    margin: 0 auto;
+    width: fit-content;
+}
+.form-section{
+    display: block;
+    padding: 3.2rem 0;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+.form-section_p{
+    width: 43.9rem;
+    letter-spacing: 0.872727px;
+}
+.form-section form{
+    display: flex;
+    align-items: center;
+}
+.form-section_input-1{
+    border: 1px solid #E1E0E1;    
+    border-radius: 3px;
+    padding: 0.8rem 0 0.7rem 1.1rem;
+    width: 33.4rem;
+    margin-right: 1.2rem;
+    box-sizing: border-box;
+    height: 3.2rem;
+}
+.form-section_input-2{
+    padding: 0.5rem 0 0.7rem 0;
+    background: black;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Poppins-Bold';
+    font-size: 1rem;
+    width: 9.4rem;
+    display: inline-flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 3.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer; 
+}
+.footer{    
+    padding: 2.6rem 0 1.4rem;
+    background: #F7F7F7;
+    font-family: 'Poppins';
+}
+.footer_block-wrap{
+    display: flex;
+    justify-content: center;
+}
+.footer_block{
+    margin-right: 4rem;
+    margin-bottom: 3.8rem;
+    width: 14.6rem;
+}
+.footer_block:last-child{
+    width: fit-content;
+}
+.footer_block h4{
+    font-size: 1.6rem;
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 1.7rem;
+}
+.footer_block h4:last-child{
+    margin-bottom: 2rem;
+}
+.footer_block li{
+    display: block;
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+}
+.footer_block:last-child li{
+    display: inline-block;
+    margin-bottom: unset;
+    margin-right: 1.6rem;    
+}
+.footer_block-inst{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.footer_block-twitter{
+    width: 1.7rem;
+    height: 1.4rem;
+}
+.footer_block-snap{
+    width: 1.6rem;
+    height: 1.5rem;
+}
+.footer_block-facebook{
+    width: 0.8rem;
+    height: 1.6rem;
+}
+.footer_block-youtube{
+    width: 1.8rem;
+    height: 1.3rem;
+}
+.footer_copyright{
+    font-size: 0.9rem;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) {    
+    html{
+        font-size: 0.7vw;
+    }   
+}
