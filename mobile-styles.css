@@ -1,69 +1,83 @@
 @media (max-width: 360px) {
-    html{        
+    html {
         font-size: 2.78vw;
     }
-    .mobile-hidden{
-        display: none;
-    }   
-    .pc-hidden{
-        display: unset;
-    }   
-    .hidden{
+
+    .mobile-hidden {
         display: none;
     }
-    .visible{
+
+    .pc-hidden {
+        display: unset;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .visible {
         display: block;
     }
-    .main-section{
+
+    .main-section {
         display: block;
         background-image: url(img/393865.png);
         background-size: cover;
         padding-bottom: 40.8rem;
     }
-    .main-section_header{
+
+    .main-section_header {
         padding: 1.6rem;
         display: flex;
         align-items: center;
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.389314) 0%, rgba(21, 21, 21, 0.209901) 33.39%, rgba(0, 0, 0, 0.0001) 95.04%);
     }
-    .main-section_notification{
+
+    .main-section_notification {
         display: flex;
         align-items: center;
     }
-    .main-section_img-1{
+
+    .main-section_img-1 {
         width: 2rem;
         height: 1.5rem;
         margin-right: 1.5rem;
     }
-    .main-section_img-2{
+
+    .main-section_img-2 {
         width: 1.8rem;
         height: 1.8rem;
         margin-right: 5.8rem;
-        margin-bottom: 0.2rem;        
-    }    
-    .main-section_img-2-1{
+        margin-bottom: 0.2rem;
+    }
+
+    .main-section_img-2-1 {
         width: 1.8rem;
         height: 1.8rem;
         margin-right: 5.8rem;
-        margin-bottom: 0.2rem;        
-    } 
-    .main-section_img-3{
+        margin-bottom: 0.2rem;
+    }
+
+    .main-section_img-3 {
         width: 1.6rem;
         height: 2.4rem;
         margin-right: 0.8rem;
     }
-    .main-section_logo{
+
+    .main-section_logo {
         color: white;
         font-size: 3rem;
         margin-right: 6.6rem;
         font-family: 'Poppins-Bold';
     }
-    .main-section_header_notification-num{
+
+    .main-section_header_notification-num {
         background-color: #F2DA91;
         border-radius: 50%;
         padding: 0.3rem 0.45rem 0.2rem 0.35rem;
     }
-    .main-section_input-block{
+
+    .main-section_input-block {
         display: flex;
         align-items: center;
         margin: 0 1.6rem;
@@ -72,142 +86,169 @@
         font-family: 'Poppins-Bold';
         font-size: 1.1rem;
     }
-    .main-section_input-block input{
+
+    .main-section_input-block input {
         width: 28rem;
     }
-    .burger_menu{
+
+    .burger_menu {
         width: 32rem;
         background: white;
         font-size: 1.1rem;
         font-family: 'Poppins-Bold';
     }
-    .burger_menu_wrap{
+
+    .burger_menu_wrap {
         width: 100%;
         background: rgba(0, 0, 0, 0.32);
         position: absolute;
         top: 0;
         left: 0;
     }
-    .burger_menu_top{
-        padding: 2.4rem 0 3.9rem 1.6rem; 
+
+    .burger_menu_top {
+        padding: 2.4rem 0 3.9rem 1.6rem;
         display: flex;
         align-items: center;
     }
-    .burger_menu_nav{
+
+    .burger_menu_nav {
         display: flex;
         flex-direction: column;
         text-transform: uppercase;
         padding-bottom: 7.9rem;
     }
-    .burger_menu_nav-2{
+
+    .burger_menu_nav-2 {
         display: flex;
         flex-direction: column;
         text-transform: uppercase;
         padding-bottom: 17.5rem;
     }
-    .burger_menu_nav-3{
+
+    .burger_menu_nav-3 {
         display: flex;
         flex-direction: column;
         text-transform: uppercase;
         padding-bottom: 3.1rem;
     }
-    .burger_menu_nav button{
+
+    .burger_menu_nav button {
         display: flex;
         justify-content: space-between;
         padding: 1.4rem 1.6rem;
         border-bottom: 1px solid #F7F7F7;
-    }      
-    .burger_menu_nav-2 button{
+    }
+
+    .burger_menu_nav-2 button {
         display: flex;
         justify-content: space-between;
         padding: 1.4rem 1.6rem;
         border-bottom: 1px solid #F7F7F7;
-    } 
-    .burger_menu_nav-3 button{
+    }
+
+    .burger_menu_nav-3 button {
         display: flex;
         justify-content: space-between;
         padding: 1.4rem 1.6rem;
         border-bottom: 1px solid #F7F7F7;
-    } 
-    .burger_menu_nav-2_top{
+    }
+
+    .burger_menu_nav-2_top {
         display: flex;
         justify-content: space-between;
         padding: 0 1.6rem 1.3rem 1.65rem;
         border-bottom: 2px solid black;
     }
-    .burger_menu_nav-3_top{
+
+    .burger_menu_nav-3_top {
         display: flex;
         justify-content: space-between;
         padding: 0 1.6rem 1.3rem 1.65rem;
         border-bottom: 2px solid black;
     }
-    .burger_menu_nav-3_top_wrap{
+
+    .burger_menu_nav-3_top_wrap {
         display: flex;
         align-items: center;
     }
-    .burger_menu_nav_r-arrow-2{
+
+    .burger_menu_nav_r-arrow-2 {
         transform: rotate(180deg);
         margin-right: 1.65rem;
     }
-    .burger_menu_nav-3_clode-button{
+
+    .burger_menu_nav-3_clode-button {
         padding: unset !important;
         border-bottom: unset !important;
     }
-    .burger_menu_nav-2_clode-button{
+
+    .burger_menu_nav-2_clode-button {
         padding: unset !important;
         border-bottom: unset !important;
     }
-    .burger_menu_nav-2_top_a{
+
+    .burger_menu_nav-2_top_a {
         text-decoration: underline;
         text-transform: none;
         font-family: 'Poppins';
     }
-    .burger_menu_h2{
+
+    .burger_menu_h2 {
         margin-left: 8.4rem;
         font-size: 3rem;
     }
-    .close-menu-btn{
+
+    .close-menu-btn {
         height: 1.6rem;
         width: 1.6rem;
     }
-    .burger_menu_sign-in{
+
+    .burger_menu_sign-in {
         padding: 1.7rem 0 1.6rem 1.5rem;
         background: #F7F7F7;
         margin-bottom: 1px;
     }
-    .burger_menu_our-stores{
+
+    .burger_menu_our-stores {
         display: flex;
         padding: 1.7rem 0 1.6rem 1.5rem;
         background: #F7F7F7;
         font-family: 'Poppins';
     }
-    .burger_menu_our-stores_img{
+
+    .burger_menu_our-stores_img {
         width: 1rem;
         height: 1.3rem;
-        margin-right: 0.7rem;        
+        margin-right: 0.7rem;
     }
-    .burger_menu_bottom{
+
+    .burger_menu_bottom {
         font-family: 'Poppins';
         padding: 1.5rem 0 3.2rem;
         margin: 0 auto;
         width: fit-content;
-    }   
-    .form-section{
+    }
+
+    .form-section {
         display: block;
-        padding: 2.4rem 1.6rem; 
+        padding: 2.4rem 1.6rem;
         font-family: 'Poppins';
         font-size: 1.2rem;
     }
-    .form-section_p{
+
+    .form-section_p {
         width: 32.8rem;
         letter-spacing: 0.872727px;
     }
-    .form-section form{
+
+    .form-section form {
         display: flex;
         align-items: center;
     }
-    .form-section_input-1{
-        border: 1px solid #E1E0E1;    
+
+    .form-section_input-1 {
+        border: 1px solid #E1E0E1;
         border-radius: 3px;
         padding: 0.8rem 0 0.7rem 1.1rem;
         width: 22.4rem;
@@ -215,7 +256,8 @@
         box-sizing: border-box;
         height: 3.2rem;
     }
-    .form-section_input-2{
+
+    .form-section_input-2 {
         padding: 0.5rem 0 0.7rem 0;
         background: black;
         border-radius: 3px;
@@ -229,76 +271,90 @@
         height: 3.2rem;
         text-transform: uppercase;
         letter-spacing: 1px;
-    } 
-    .mobile-footer{
+    }
+
+    .mobile-footer {
         background: #F7F7F7;
         padding: 0 1.6rem 2.3rem;
         display: flex;
         flex-direction: column;
     }
-    .mobile-footer_button{
+
+    .mobile-footer_button {
         display: flex;
         justify-content: space-between;
         padding: 1.6rem;
         border-bottom: 1px solid #E1E0E1;
         font-family: 'Cormorant Garamond';
         font-size: 1.6rem;
-    }    
-    .mobile-footer_button_burger{
+    }
+
+    .mobile-footer_button_burger {
         display: flex;
         flex-direction: column;
     }
-    .mobile-footer_button-2{
+
+    .mobile-footer_button-2 {
         display: flex;
         justify-content: space-between;
-        padding: 1.6rem;        
+        padding: 1.6rem;
         font-family: 'Cormorant Garamond';
         font-size: 1.6rem;
     }
-    .burger_menu_nav_r-arrow-3{
+
+    .burger_menu_nav_r-arrow-3 {
         transform: rotate(90deg);
     }
-    .mobile-footer_button_burger_li{
+
+    .mobile-footer_button_burger_li {
         display: block;
         margin-left: 1.6rem;
         margin-bottom: 1rem;
         font-family: 'Poppins';
         font-size: 1.2rem;
     }
-    .mobile-footer_social-media{
+
+    .mobile-footer_social-media {
         display: flex;
         margin: 2.45rem auto 1.6rem;
     }
-    .social-media-1{
+
+    .social-media-1 {
         width: 1.9rem;
         height: 1.9rem;
         margin-right: 2.4rem;
     }
-    .social-media-2{
+
+    .social-media-2 {
         width: 2rem;
         height: 1.6rem;
         margin-right: 2.4rem;
     }
-    .social-media-3{
+
+    .social-media-3 {
         width: 1.9rem;
         height: 1.8rem;
         margin-right: 2.4rem;
     }
-    .social-media-4{
+
+    .social-media-4 {
         width: 1rem;
         height: 1.9rem;
         margin-right: 2.4rem;
     }
-    .social-media-5{
+
+    .social-media-5 {
         width: 2.1rem;
-        height: 1.5rem;        
+        height: 1.5rem;
     }
-    .mobile-footer_copyright{
+
+    .mobile-footer_copyright {
         display: block;
         width: fit-content;
         margin: 0 auto;
     }
-    .hidden-2{
+
+    .hidden-2 {
         display: none;
     }
 }
