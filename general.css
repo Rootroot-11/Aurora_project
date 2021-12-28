@@ -4,17 +4,17 @@ html {
 body {
     margin: 0;
 }
-a {
+a{
     text-decoration: none;
     color: unset;
 }
-a:hover {
+a:hover{
     color: pink;    
 }
-a:focus {
+a:focus{
     text-decoration: underline;
 }
-ul {
+ul{
     padding: 0;
     margin: unset;
   }
